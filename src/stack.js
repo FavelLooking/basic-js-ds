@@ -17,9 +17,7 @@ class Stack {
     this.arr = [];
   }
   push(element) {
-    console.debug(`element: ${element}`)
     return this.arr.push(element)
-    console.debug(`stack: ${this.arr}`)
   }
 
   pop() {
