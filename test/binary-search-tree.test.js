@@ -45,6 +45,7 @@ describe('Binary search tree', () => {
       tree.add(2);
       tree.add(3);
       tree.add(4);
+      console.debug(tree)
       assert.strictEqual(tree.root().data, 2);
     });
 
